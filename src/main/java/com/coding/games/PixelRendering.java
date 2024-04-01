@@ -1,14 +1,12 @@
 package com.coding.games;
 
 import java.util.*;
-import java.io.*;
-import java.math.*;
 
 /**
  * Auto-generated code below aims at helping you parse
  * the standard input according to the problem statement.
  **/
-public class PixelMovement {
+public class PixelRendering {
 
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);

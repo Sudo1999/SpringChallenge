@@ -55,7 +55,7 @@ public class Buildings {
             // Le flux d’entrée standard, connu également sous le nom de System.in de Java, permet à un utilisateur d’écrire du texte,
             // et au programme de lire ce texte via la classe Scanner. L'outil Scanner peut également lui servir à lire un fichier.
 
-        String inputFile = "src/main/resources/buildings.txt";
+        String inputFile = "src/main/resources/1-Buildings.txt";
         try (Scanner in = new Scanner(new File(inputFile))) {
 
             ArrayList inputs = new ArrayList() {{
