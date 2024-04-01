@@ -1,9 +1,10 @@
 package com.coding.games;
 
-import java.util.*;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
+import java.util.List;
+import java.util.Scanner;
 
 public class FightingTheVoid {
 
