@@ -3,9 +3,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+resources/
 resources/FightingTheVoid/
-resources/FightingTheVoid/input.txt
-resources/FightingTheVoid/output.txt
 
 ### IntelliJ IDEA ###
 /.idea/
