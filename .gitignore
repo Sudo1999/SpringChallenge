@@ -4,6 +4,8 @@ target/
 !**/src/test/**/target/
 
 resources/FightingTheVoid/
+resources/FightingTheVoid/input.txt
+resources/FightingTheVoid/output.txt
 
 ### IntelliJ IDEA ###
 /.idea/
