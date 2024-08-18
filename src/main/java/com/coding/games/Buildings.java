@@ -1,10 +1,10 @@
 package com.coding.games;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -45,6 +45,11 @@ public class Buildings {
         System.out.println(gson.toJson(output));
         System.out.println(gson.toJson(output).equals(gson.toJson(rightSolution)));
     }
+
+    /* Test OK :
+        [5,2,3,5,1]
+        true
+        */
 
     public static void main(String args[]) {
 

@@ -58,6 +58,14 @@ public class PixelRendering {
             }
             System.out.println(image.toString().equals(expected));
 
+            /* Test OK :
+                ####
+                #..#
+                #..#
+                ####
+                true
+                */
+
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
